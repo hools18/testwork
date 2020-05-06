@@ -1,0 +1,8 @@
+# OS files
+.DS_Store
+._*
+
+# Compser files
+/vendor/
+
+/test/

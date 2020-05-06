@@ -1,0 +1,6 @@
+{
+    "require": {
+        "steampixel/simple-php-router": "^0.4.0",
+        "illuminate/database": "^7.10"
+    }
+}
