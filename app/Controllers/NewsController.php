@@ -78,7 +78,8 @@ class NewsController
                     'sections' => $news->sections->keyBy('id')->keys(),
                 ];
             }),
-            'status' => 200
+            'status' => 200,
+            'message' => ''
         ];
 
         return json_encode($data);
