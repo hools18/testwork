@@ -79,7 +79,8 @@ class SectionController
                             'text' => $news->text,
                         ];
                     }),
-                'status' => 200
+                'status' => 200,
+                'message' => ''
             ];
             return json_encode($data);
         }
