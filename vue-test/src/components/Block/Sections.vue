@@ -5,6 +5,10 @@
         <p class="card-text">{{ section.name }}</p>
         <a @click="showSection(section.id)" class="btn btn-primary">Подробнее...</a>
       </div>
+      <div v-if="section.child.length > 0">
+        <p>Раздел включает:</p>
+        <a @click="showSection(child.id)" class="btn btn-info" v-for="child in section.child">{{ child.name }}</a>
+      </div>
     </div>
   </div>
 </template>
